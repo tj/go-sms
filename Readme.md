@@ -15,6 +15,10 @@ conflating APIs FTW.
 sms.Send("Hello World", "+19999999999")
 ````
 
+## Running Tests
+
+First export the `PHONE` environment variable to test against your number, and set your AWS credentials via the `AWS_*` environment variables.
+
 ## Badges
 
 [![GoDoc](https://godoc.org/github.com/tj/go-sms?status.svg)](https://godoc.org/github.com/tj/go-sms)
